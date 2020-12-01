@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: `https://kangur-photography.netlify.app/`,
     siteDescription: ``,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/favicon-32x32.png`,
     author: `@yougonnagetyours`,
     // siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
     // title: `Kangur Photography`,
