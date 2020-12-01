@@ -1,8 +1,8 @@
 import * as React from "react"
 
 let style= {
-  width: "20vw",
-  height: "20vh",
+  width: "10vw",
+  height: "10vh",
 }
 
 const Logo = () => (
