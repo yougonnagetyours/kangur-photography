@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `Kinga`,
     siteTitleAlt: `Kangur Photography`,
+    siteHeadline: `Kangur Photography`,
+    siteUrl: `https://kangur-photography.netlify.app/`,
+    siteDescription: ``,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@yougonnagetyours`,
     // siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
     // title: `Kangur Photography`,
   },
