@@ -3,6 +3,7 @@ import * as React from "react"
 let style= {
   width: "15vw",
   height: "15vh",
+  padding: "0",
 }
 
 const Logo = () => (
