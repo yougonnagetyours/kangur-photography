@@ -5,12 +5,12 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `Kinga`,
-    siteTitleAlt: `Kangur Photography`,
-    siteHeadline: `Kangur Photography`,
+    siteTitleAlt: `Kangur Photography | Portfolio`,
+    siteHeadline: `Kangur Photography | Portfolio`,
     siteUrl: `https://kangur-photography.netlify.app/`,
     siteDescription: ``,
     siteLanguage: `en`,
-    siteImage: `/favicon-32x32.png`,
+    siteImage: `/banner.jpg`,
     author: `@yougonnagetyours`,
     // siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
     // title: `Kangur Photography`,
@@ -22,7 +22,7 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
+          // { name: `Instagram`, slug: `/instagram` },
           { name: `About`, slug: `/about` },
         ],
       },
