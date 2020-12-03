@@ -47,7 +47,7 @@ module.exports = {
         short_name: `jodie`,
         description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
         start_url: `/`,
-        background_color: `#000000`,
+        background_color: `#ffffff`,
         theme_color: `#b75e09`,
         display: `standalone`,
         icons: [
