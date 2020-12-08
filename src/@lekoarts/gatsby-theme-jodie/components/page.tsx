@@ -44,7 +44,7 @@ const Page: React.FC<PageProps<DataProps>> = ({ data: { page }, location }) => (
       data-testid="page-content"
     >
       <MDXRenderer>{page.body}</MDXRenderer>
-      <img src={about} style={{width: "100%"}} alt="About"></img>
+      <img src={about} style={style} alt="About"></img>
     </div>
   </Layout>
 )

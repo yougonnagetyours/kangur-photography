@@ -10,6 +10,7 @@ type SidebarProps = { bg: string }
 
 const Sidebar = ({ bg }: SidebarProps) => {
   const { siteTitle } = useSiteMetadata()
+  bg = "#000000"
 
   return (
     <header
