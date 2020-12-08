@@ -7,6 +7,10 @@ import Layout from "./layout"
 import SEO from "./seo"
 import about from "./about.png"
 
+let style = {
+    width: "100%",
+}
+
 type DataProps = {
   page: {
     title: string
@@ -40,7 +44,7 @@ const Page: React.FC<PageProps<DataProps>> = ({ data: { page }, location }) => (
       data-testid="page-content"
     >
       <MDXRenderer>{page.body}</MDXRenderer>
-      <img src={about} alt="About"></img>
+      <img src={about} style={{width: "100%"}} alt="About"></img>
     </div>
   </Layout>
 )
