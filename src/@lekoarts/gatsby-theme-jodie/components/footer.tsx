@@ -12,6 +12,8 @@ const Footer = ({ bg }: { bg: string }) => {
     theme!.colors!.textMuted as string | undefined,
     theme!.colors!.textMutedLight as string | undefined
   )
+  
+  bg = "#000000"
 
   return (
     <footer
