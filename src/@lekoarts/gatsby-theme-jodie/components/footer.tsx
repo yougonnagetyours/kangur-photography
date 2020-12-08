@@ -7,13 +7,14 @@ const Footer = ({ bg }: { bg: string }) => {
   const { siteTitle } = useSiteMetadata()
   const { theme } = useThemeUI()
 
-  const text = readableColor(
+  let text = readableColor(
     bg,
     theme!.colors!.textMuted as string | undefined,
     theme!.colors!.textMutedLight as string | undefined
   )
   
   bg = "#000000"
+  text = "rgb(160, 170, 184)"
 
   return (
     <footer
