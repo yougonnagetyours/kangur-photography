@@ -5,7 +5,7 @@ import { PageProps } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "./layout"
 import SEO from "./seo"
-import about from "./about.png"
+import about from "./about.jpg"
 
 let style = {
     width: "100%",
