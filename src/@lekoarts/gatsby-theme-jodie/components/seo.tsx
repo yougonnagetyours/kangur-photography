@@ -56,4 +56,4 @@ const SEO = ({ title = ``, description = ``, pathname = ``, image = ``, children
   )
 }
 
-export default 
+export default SEO
