@@ -23,7 +23,7 @@ module.exports = {
         navigation: [
           { name: `Projects`, slug: `/projects` },
           { name: `Instagram`, slug: `/instagram` },
-          { name: `Abou`, slug: `/about` },
+          { name: `O mnie`, slug: `/about` },
         ],
       },
     },
